@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <style type="text/css">
+      html, body {
+        padding: 0px;
+        margin: 0px;
+        height: 100%;
+      }
       body {
         background-color: #000;
         background-repeat: no-repeat;
@@ -16,8 +21,6 @@
         text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
         font-family: "Open Sans", Arial, sans-serif;
         font-size: 160%;
-        padding: 0px;
-        margin: 0px;
       }
       
       .content {
@@ -27,7 +30,8 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        height: 100vh;
+        height: 100%;
+        text-align: center;
       }
       
       @keyframes animatedBG {
